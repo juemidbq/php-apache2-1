@@ -14,7 +14,7 @@ ENV APACHE_USER_UID 0
 RUN apt-get update -qq && DEBIAN_FRONTEND=noninteractive apt-get -yqq install --no-install-recommends\
     php5\
     php5-curl\
-    php5-mysq\
+    php5-mysql\
     php5-gd\
     php-apc\
     php5-imagick\
